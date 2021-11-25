@@ -1,0 +1,46 @@
+/* B R A N D I N G */
+
+$clr-brand: #db0a0d;
+$clr-lightBrand: #fc2e31;
+$clr-darkBrand: #af0104;
+
+$clr-white: #fafafa;
+$clr-black: #0F0F0F;
+
+$clr-lightGrey: #DBDEE2;
+$clr-darkGrey: #404040;
+
+/* S H A D O W S */
+
+.shadow-lg {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.shadow-inner-bottom {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+
+/* P A D D I N G S */
+
+.pd-3 {
+    padding: 3em;
+}
+
+/* A N I M A T I O N S */
+
+.grow {
+    transition: all 0.35s ease-in-out;
+
+    @media (max-width: 1023px) {
+        transition: unset;
+    }
+  }
+
+.grow:hover {
+    transform: scale(1.2);
+    z-index: 5;
+    @media (max-width: 1023px) {
+        transform: unset;
+        z-index: 1;
+    }
+  }

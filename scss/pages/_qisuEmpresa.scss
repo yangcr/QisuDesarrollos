@@ -1,0 +1,241 @@
+.the-company {
+
+    &__hero {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+        .the-company__text {
+            padding: 3em;
+            min-width: 350px;
+            text-align: center;
+
+            h1 {
+                font-size: 2.4em;
+                margin-bottom: .7em;
+            }
+
+            &__lg {
+                display: none;
+            }
+        }
+
+        img {
+            max-width: 300px;
+        }
+    }
+
+    @media (min-width: 700px) {
+
+        .the-company__text {
+            max-width: 600px;
+
+            
+        }
+        img {
+            max-width: 500px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+    &__hero {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+        .the-company__text {
+            text-align: left;
+            
+            &__lg {
+                display: unset;
+            }
+        }
+
+        img {
+            max-width: 500px;
+            padding: 2em;
+        }
+    }
+
+    }
+}
+
+
+.card-team {
+
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 0.5em;
+    align-items: center;
+    min-width: 170px;
+    max-width: 250px;
+    padding: 2em;
+
+
+    &__text {
+        text-align: center;
+
+        h3 {
+            font-size: 1.4em;
+            color: $clr-brand;
+        }
+    }
+
+    img {
+        min-width: 150px;
+        margin-bottom: .7em;
+        clip-path: circle(40%);
+    }
+
+    
+    @media (min-width: 700px) {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: unset;
+        padding: 2em;
+        min-width: 600px;
+        max-width: 800px;
+        justify-content: space-around;
+        align-self: center;
+        gap: 3em;
+
+
+        &__text {
+            text-align: right;
+        }
+
+        img {
+            min-width: unset;
+            max-width: 200px;
+            margin-bottom: unset;
+            clip-path: unset;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    min-width: 170px;
+    max-width: 200px;
+    padding: 2em;
+    gap: unset;
+    background: #FFFFFF;
+
+
+
+    &__text {
+        text-align: center;
+
+        h3 {
+            font-size: 1.4em;
+            color: $clr-brand;
+        }
+    }
+
+    img {
+        min-width: 130px;
+        margin-bottom: .7em;
+        clip-path: circle(40%);
+    }
+}
+}
+
+
+
+.qisu-teams {
+
+    .team__above {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .teams {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+
+        .team-cards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            gap: 2em;
+        }
+    }
+
+    @media (min-width: 700px) {
+        .team__above {
+            gap: 5em;
+            padding-bottom: 5em;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1em;
+
+        .team__above {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: unset;
+            padding-bottom: unset;
+            gap: 3em;
+        }
+
+        .teams {
+            padding: 3em;
+            gap: 2em;
+
+        
+            .team-cards {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                align-content: center;
+                justify-content: center;
+                gap: 2em;
+            }
+        }
+    }
+
+
+    @media (min-width: 1450px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 6em;
+
+        .team__above {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 3em;
+        }
+
+        .teams {
+
+        
+            .team-cards {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+                align-content: center;
+                gap: 2em;
+            }
+        }
+    }
+}

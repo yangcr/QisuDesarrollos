@@ -1,0 +1,134 @@
+.desarrollos {
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        padding: 2em;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        h2 {
+            text-align: center;
+            font-size: 1.7em;
+            margin-bottom: 1.3em;
+            text-transform: uppercase;
+        }
+
+        .project__card {
+            width: 80vw;
+            justify-content: center;
+
+            
+
+            &-upper {
+                display: flex;
+                flex-direction: column-reverse;
+                flex-wrap: nowrap;
+                height: auto;
+                padding: 0.7em;
+                overflow: hidden;
+                align-items: center;
+                
+                @media (min-width: 1010px) {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    height: 45vh;
+                    padding: 0.7em;
+                    overflow: hidden;
+                }
+            }
+
+            &-below {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                height: auto;
+                padding: 0.7em;
+                overflow: hidden;
+
+                @media (min-width: 540px) {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    height: 45vh;
+                    padding: 0.7em;
+                    overflow: hidden;
+
+                }
+
+            }
+
+            &-container {
+                padding: 0.7em;
+                @media (min-width: 1010px) {
+                    width: 50%;
+                    height: 100%;
+                    padding: 1em;
+                    display: flex;
+                    flex-direction: center;
+                    align-items: center;
+                }
+                }
+
+                img {
+                    object-fit: cover;
+                    height: 100%;
+                    width: 100%;
+
+                }
+
+                .prj-info {
+
+                    padding: 1.6em;
+                    justify-content: flex-end;
+                    max-width: 600px;
+
+                    @media (min-width: 791px) {
+
+                        padding: 1.6em;
+                        justify-content: flex-end;
+                    }
+
+                    h3 {
+                        font-size: 1.5em;
+                        text-align: center;
+                        color: $clr-brand;
+                        @media (min-width: 680px) {
+                            font-size: 1.8em;
+                            text-align: left;
+                        }
+                    }
+
+                    .subtitle {
+                        font-weight: 700;
+                        font-size: 1.1em;
+                        letter-spacing: 0.12em;
+                        margin-bottom: 1.3em;
+                        text-align: center;
+
+                        @media (min-width: 680px) {
+                            text-align: left;
+
+                        }
+
+                    }
+
+                    .prj-details {
+                        text-align: center;
+
+                        @media (min-width: 680px) {
+                            text-align: left;
+                        }
+
+                    }
+                    
+            }
+
+        }
+    }
+}

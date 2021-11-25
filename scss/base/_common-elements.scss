@@ -1,0 +1,145 @@
+@mixin btn {
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.btn-main_lg{
+    @include btn;
+    color: $clr-white;
+    background-color: $clr-brand;
+    border: 0.15em solid $clr-brand;
+    text-align: center;
+    padding: 1.3em;
+}
+
+.btn-main_md {
+    @include btn;
+    color: $clr-white;
+    background-color: $clr-brand;
+    border: 0.15em solid $clr-brand;
+    text-align: center;
+    padding: .8em;
+}
+
+.btn-main_sm {
+    @include btn;
+    color: $clr-white;
+    background-color: $clr-brand;
+    border: 0.15em solid $clr-brand;
+    text-align: center;
+    padding: .5em
+}
+
+.btn-outline-main_lg {
+    @include btn;
+    color: $clr-brand;
+    border: 0.15em solid $clr-brand;
+    padding: 1.3em;
+}
+
+.btn-outline-main_md {
+    @include btn;
+    color: $clr-brand;
+    border: 0.15em solid $clr-brand;
+    padding: .8em;
+}
+
+.btn-outline-main_sm {
+    @include btn;
+    color: $clr-brand;
+    border: 0.15em solid $clr-brand;
+    padding: .5em;
+}
+
+.btn-white_lg {
+    @include btn;
+    color: $clr-brand;
+    background-color: $clr-white;
+    border: 0.15em solid $clr-white;
+    padding: 1.3em;
+}
+
+.btn-white_md {
+    @include btn;
+    color: $clr-brand;
+    background-color: $clr-white;
+    border: 0.15em solid $clr-white;
+    padding: .8em;
+}
+
+.btn-white_sm {
+    @include btn;
+    color: $clr-brand;
+    background-color: $clr-white;
+    border: 0.15em solid $clr-white;
+    padding: .5em;
+}
+
+.btn-outline-white_lg {
+    @include btn;
+    color: $clr-white;
+    border: 0.15em solid $clr-white;
+    padding: 1.3em;
+}
+
+.btn-outline-white_md {
+    @include btn;
+    color: $clr-white;
+    border: 0.15em solid $clr-white;
+    padding: .3em;
+}
+
+.btn-outline-white_sm {
+    @include btn;
+    color: $clr-white;
+    border: 0.15em solid $clr-white;
+    padding: .5em;
+}
+
+.btn-black_lg {
+    @include btn;
+    color: $clr-white;
+    background-color: $clr-black;
+    border: 0.15em solid $clr-black;
+    padding: 1.3em;
+}
+
+.btn-black_md {
+    @include btn;
+    color: $clr-white;
+    background-color: $clr-black;
+    border: 0.15em solid $clr-black;
+    padding: .8em;
+}
+
+.btn-black_sm {
+    @include btn;
+    color: $clr-white;
+    background-color: $clr-black;
+    border: 0.15em solid $clr-black;
+    padding: .5em;
+}
+
+.btn-outline-black_lg {
+    @include btn;
+    color: $clr-black;
+    border: 0.15em solid $clr-black;
+    padding: 1.3em;
+}
+
+.btn-outline-black_md {
+    @include btn;
+    color: $clr-black;
+    border: 0.15em solid $clr-black;
+    padding: .8em;
+}
+
+.btn-outline-black_sm {
+    @include btn;
+    color: $clr-black;
+    border: 0.15em solid $clr-black;
+    padding: .5em;
+}

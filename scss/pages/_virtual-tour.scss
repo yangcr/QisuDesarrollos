@@ -1,0 +1,76 @@
+#virtual-tours {
+
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        padding-top: 1.2em;
+        @media (min-width: 768px) {
+            font-size: 3em;
+        }
+    }
+
+    .tours-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 2em 0;
+
+        h2 {
+            font-size: 1.5em;
+            text-align: center;
+            padding: 1.2em;
+
+            @media (min-width: 768px) {
+                font-size: 2em;
+            }
+            
+        }
+
+        span {
+            color: $clr-brand;
+        }
+
+        .virtual-tour__card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            div{
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+                min-height: 350px;
+                width: 70vw;
+                background: $clr-black;
+    
+                &:hover {
+                    cursor: pointer;
+    
+                    & p{
+                    text-decoration: 2px underline;
+                    text-underline-offset: 7px;
+                    }
+                }
+    
+                p{
+                    color: $clr-white;
+                    text-align: center;
+                }
+    
+                iframe {
+                    height: 100%;
+                    width: 100%;
+    
+                }
+            }
+        }
+
+
+    }
+
+    #luthiers {
+        background: $clr-white;
+    }
+}
