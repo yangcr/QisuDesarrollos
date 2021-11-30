@@ -199,6 +199,12 @@
         background: $clr-black;
         margin: 0.8em;
         padding: 1.3em;
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
         
 
         &__text {

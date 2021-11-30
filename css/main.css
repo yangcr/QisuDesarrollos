@@ -841,6 +841,13 @@ footer img {
   padding: 1.3em;
 }
 
+.portfolio__card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .portfolio__card__text {
   display: -webkit-box;
   display: -ms-flexbox;
