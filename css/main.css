@@ -1209,6 +1209,10 @@ footer img {
   }
 }
 
+.teams h2 {
+  margin-bottom: .8em;
+}
+
 .card-team {
   display: -webkit-box;
   display: -ms-flexbox;
