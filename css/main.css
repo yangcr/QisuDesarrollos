@@ -479,7 +479,7 @@ header nav .menu li:hover {
   }
 }
 
-@media (min-width: 950px) {
+@media (min-width: 900px) {
   header {
     position: -webkit-sticky;
     position: sticky;
@@ -498,7 +498,7 @@ header nav .menu li:hover {
     margin: 1.5em 2.3em;
   }
   header .navLogo {
-    width: 150px;
+    width: 125px;
   }
   header .nav__btn {
     display: none;
@@ -506,7 +506,7 @@ header nav .menu li:hover {
   header nav {
     all: unset;
     height: 1.2em;
-    font-size: .8em;
+    font-size: .7em;
   }
   header nav .menu {
     margin: unset;
@@ -845,6 +845,7 @@ footer img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+  max-height: 294px;
 }
 
 .portfolio__card__text {

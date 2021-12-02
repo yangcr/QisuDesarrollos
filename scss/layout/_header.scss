@@ -80,7 +80,7 @@ header {
         }
     }
 
-    @media (min-width: 950px) {
+    @media (min-width: 900px) {
 
         & {
             position: sticky;
@@ -102,7 +102,7 @@ header {
         }
 
         .navLogo {
-            width: 150px;
+            width: 125px;
         }
         .nav__btn {
             display: none;
@@ -111,7 +111,7 @@ header {
         nav{
             all: unset;
             height: 1.2em;
-            font-size: .8em;
+            font-size: .7em;
 
             .menu {
                 margin: unset;
