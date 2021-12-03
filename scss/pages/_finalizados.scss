@@ -36,6 +36,7 @@
         justify-content: space-evenly;
         margin-bottom: 3em;
         align-items: center;
+        
 
         @media (min-width: 890px) {
           display: flex;
@@ -99,7 +100,6 @@
             }
 
               p {
-                max-width: 60vw;
                 padding: 1.2em;
                 text-align: center;
 
