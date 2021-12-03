@@ -30,17 +30,72 @@ $grid-position: ("main-left": 1 #{"/"} 1 #{"/"} 4 #{"/"} 4, "upper": 1 #{"/"} 4 
     }
 
 
-@each $cell in $cells {
-    .project__gallery-grid__#{$cell} {
-        grid-area: unset;
-    }
-    }
-
-    @media (min-width: 890px) {
-        @each $cell in $cells {
-            .project__gallery-grid__#{$cell} {
-                grid-area: map-get($grid-position, $cell);
-            }
+    @each $cell in $cells {
+        .project__gallery-grid__#{$cell} {
+            grid-area: unset;
         }
-    }   
+        }
+
+        @media (min-width: 890px) {
+            @each $cell in $cells {
+                .project__gallery-grid__#{$cell} {
+                    grid-area: map-get($grid-position, $cell);
+                }
+            }
+        }   
+
+
+
+  @media (min-width: 900px) {
+    .view-image {
+      font-family: "Lato", sans-serif;
+      font-size: 1.7em;
+      font-weight: 800;
+      text-transform: uppercase;
+  }
+
+  .bg,
+  .overlay {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img,
+  .overlay {
+    transition: .3s all;
+    border-radius: 3px;
+  }
+
+  .bg {
+    position: relative;
+    img {
+      width: 100%;
+      margin-bottom: -4px;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      opacity: 0;
+    }
+    &:hover {
+      .overlay {
+        opacity: 1;
+      }
+      img {
+        object-fit: cover;
+        filter: blur(.3rem);
+      }
+    }
+  }
+
+  }
+
+
 }

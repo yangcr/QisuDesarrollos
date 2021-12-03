@@ -30,7 +30,6 @@ $clr-darkGrey: #404040;
 
 .grow {
     transition: all 0.35s ease-in-out;
-
     @media (max-width: 1023px) {
         transition: unset;
     }
