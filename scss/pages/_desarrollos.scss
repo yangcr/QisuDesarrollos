@@ -16,6 +16,11 @@
             font-size: 1.7em;
             margin-bottom: 1.3em;
             text-transform: uppercase;
+
+            @media (min-width: 465px) {
+                text-align: center;
+                font-size: 2.4em;
+              }
         }
 
         .project__card {

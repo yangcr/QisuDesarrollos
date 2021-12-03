@@ -1489,6 +1489,13 @@ footer img {
   text-transform: uppercase;
 }
 
+@media (min-width: 465px) {
+  .desarrollos section h2 {
+    text-align: center;
+    font-size: 2.4em;
+  }
+}
+
 .desarrollos section .project__card {
   width: 80vw;
   -webkit-box-pack: center;
@@ -1652,13 +1659,6 @@ footer img {
   padding: 2em;
 }
 
-@media (min-width: 465px) {
-  #completed h1 {
-    font-size: 2em;
-    text-align: center;
-  }
-}
-
 #completed section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1674,7 +1674,9 @@ footer img {
 
 #completed section h2 {
   text-align: center;
+  font-size: 1.7em;
   margin-bottom: 1.3em;
+  text-transform: uppercase;
 }
 
 @media (min-width: 465px) {
