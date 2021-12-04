@@ -113,6 +113,16 @@ label {
   border: 0.15em solid #db0a0d;
   text-align: center;
   padding: 1.3em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-main_lg:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #fafafa;
+          box-shadow: inset 0px 0px 30px 45px #fafafa;
+  color: #db0a0d;
 }
 
 .btn-main_md {
@@ -125,6 +135,16 @@ label {
   border: 0.15em solid #db0a0d;
   text-align: center;
   padding: .8em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-main_md:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #fafafa;
+          box-shadow: inset 0px 0px 30px 45px #fafafa;
+  color: #db0a0d;
 }
 
 .btn-main_sm {
@@ -137,6 +157,16 @@ label {
   border: 0.15em solid #db0a0d;
   text-align: center;
   padding: .5em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-main_sm:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #fafafa;
+          box-shadow: inset 0px 0px 30px 45px #fafafa;
+  color: #db0a0d;
 }
 
 .btn-outline-main_lg {
@@ -147,6 +177,17 @@ label {
   color: #db0a0d;
   border: 0.15em solid #db0a0d;
   padding: 1.3em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-outline-main_lg:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #0F0F0F;
+          box-shadow: inset 0px 0px 30px 45px #0F0F0F;
+  color: #fafafa;
+  border: 0.15em solid #0F0F0F;
 }
 
 .btn-outline-main_md {
@@ -157,6 +198,17 @@ label {
   color: #db0a0d;
   border: 0.15em solid #db0a0d;
   padding: .8em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-outline-main_md:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #0F0F0F;
+          box-shadow: inset 0px 0px 30px 45px #0F0F0F;
+  color: #fafafa;
+  border: 0.15em solid #0F0F0F;
 }
 
 .btn-outline-main_sm {
@@ -167,6 +219,17 @@ label {
   color: #db0a0d;
   border: 0.15em solid #db0a0d;
   padding: .5em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-outline-main_sm:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #0F0F0F;
+          box-shadow: inset 0px 0px 30px 45px #0F0F0F;
+  color: #fafafa;
+  border: 0.15em solid #0F0F0F;
 }
 
 .btn-white_lg {
@@ -178,6 +241,16 @@ label {
   background-color: #fafafa;
   border: 0.15em solid #fafafa;
   padding: 1.3em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-white_lg:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #db0a0d;
+          box-shadow: inset 0px 0px 30px 45px #db0a0d;
+  color: #0F0F0F;
 }
 
 .btn-white_md {
@@ -189,6 +262,16 @@ label {
   background-color: #fafafa;
   border: 0.15em solid #fafafa;
   padding: .8em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-white_md:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #fafafa;
+          box-shadow: inset 0px 0px 30px 45px #fafafa;
+  color: #0F0F0F;
 }
 
 .btn-white_sm {
@@ -200,6 +283,16 @@ label {
   background-color: #fafafa;
   border: 0.15em solid #fafafa;
   padding: .5em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-white_sm:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #db0a0d;
+          box-shadow: inset 0px 0px 30px 45px #db0a0d;
+  color: #fafafa;
 }
 
 .btn-outline-white_lg {
@@ -210,6 +303,17 @@ label {
   color: #fafafa;
   border: 0.15em solid #fafafa;
   padding: 1.3em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-outline-white_lg:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #db0a0d;
+          box-shadow: inset 0px 0px 30px 45px #db0a0d;
+  color: #fafafa;
+  border: 0.15em solid #db0a0d;
 }
 
 .btn-outline-white_md {
@@ -220,6 +324,17 @@ label {
   color: #fafafa;
   border: 0.15em solid #fafafa;
   padding: .3em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-outline-white_md:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #db0a0d;
+          box-shadow: inset 0px 0px 30px 45px #db0a0d;
+  color: #fafafa;
+  border: 0.15em solid #db0a0d;
 }
 
 .btn-outline-white_sm {
@@ -230,6 +345,17 @@ label {
   color: #fafafa;
   border: 0.15em solid #fafafa;
   padding: .5em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-outline-white_sm:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #db0a0d;
+          box-shadow: inset 0px 0px 30px 45px #db0a0d;
+  color: #fafafa;
+  border: 0.15em solid #db0a0d;
 }
 
 .btn-black_lg {
@@ -241,6 +367,16 @@ label {
   background-color: #0F0F0F;
   border: 0.15em solid #0F0F0F;
   padding: 1.3em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-black_lg:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #fafafa;
+          box-shadow: inset 0px 0px 30px 45px #fafafa;
+  color: #0F0F0F;
 }
 
 .btn-black_md {
@@ -252,6 +388,16 @@ label {
   background-color: #0F0F0F;
   border: 0.15em solid #0F0F0F;
   padding: .8em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.btn-black_md:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #fafafa;
+          box-shadow: inset 0px 0px 30px 45px #fafafa;
+  color: #0F0F0F;
 }
 
 .btn-black_sm {
@@ -263,36 +409,16 @@ label {
   background-color: #0F0F0F;
   border: 0.15em solid #0F0F0F;
   padding: .5em;
+  -webkit-transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, color 0.3s;
+  transition: box-shadow 0.3s, color 0.3s, -webkit-box-shadow 0.3s;
 }
 
-.btn-outline-black_lg {
-  padding: 0.5em 1em;
-  border-radius: 0.25em;
-  cursor: pointer;
-  text-transform: uppercase;
+.btn-black_sm:hover {
+  -webkit-box-shadow: inset 0px 0px 30px 45px #fafafa;
+          box-shadow: inset 0px 0px 30px 45px #fafafa;
   color: #0F0F0F;
-  border: 0.15em solid #0F0F0F;
-  padding: 1.3em;
-}
-
-.btn-outline-black_md {
-  padding: 0.5em 1em;
-  border-radius: 0.25em;
-  cursor: pointer;
-  text-transform: uppercase;
-  color: #0F0F0F;
-  border: 0.15em solid #0F0F0F;
-  padding: .8em;
-}
-
-.btn-outline-black_sm {
-  padding: 0.5em 1em;
-  border-radius: 0.25em;
-  cursor: pointer;
-  text-transform: uppercase;
-  color: #0F0F0F;
-  border: 0.15em solid #0F0F0F;
-  padding: .5em;
 }
 
 .project__gallery-grid {

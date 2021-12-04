@@ -13,6 +13,12 @@
     border: 0.15em solid $clr-brand;
     text-align: center;
     padding: 1.3em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-white;
+        color: $clr-brand;
+      }
 }
 
 .btn-main_md {
@@ -22,6 +28,12 @@
     border: 0.15em solid $clr-brand;
     text-align: center;
     padding: .8em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-white;
+        color: $clr-brand;
+      }
 }
 
 .btn-main_sm {
@@ -30,7 +42,13 @@
     background-color: $clr-brand;
     border: 0.15em solid $clr-brand;
     text-align: center;
-    padding: .5em
+    padding: .5em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-white;
+        color: $clr-brand;
+      }
 }
 
 .btn-outline-main_lg {
@@ -38,6 +56,13 @@
     color: $clr-brand;
     border: 0.15em solid $clr-brand;
     padding: 1.3em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-black;
+        color: $clr-white;
+        border: 0.15em solid $clr-black;
+      }
 }
 
 .btn-outline-main_md {
@@ -45,6 +70,13 @@
     color: $clr-brand;
     border: 0.15em solid $clr-brand;
     padding: .8em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-black;
+        color: $clr-white;
+        border: 0.15em solid $clr-black;
+      }
 }
 
 .btn-outline-main_sm {
@@ -52,6 +84,13 @@
     color: $clr-brand;
     border: 0.15em solid $clr-brand;
     padding: .5em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-black;
+        color: $clr-white;
+        border: 0.15em solid $clr-black;
+      }
 }
 
 .btn-white_lg {
@@ -60,6 +99,12 @@
     background-color: $clr-white;
     border: 0.15em solid $clr-white;
     padding: 1.3em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-brand;
+        color: $clr-black;
+      }
 }
 
 .btn-white_md {
@@ -68,6 +113,12 @@
     background-color: $clr-white;
     border: 0.15em solid $clr-white;
     padding: .8em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-white;
+        color: $clr-black;
+      }
 }
 
 .btn-white_sm {
@@ -76,6 +127,12 @@
     background-color: $clr-white;
     border: 0.15em solid $clr-white;
     padding: .5em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-brand;
+        color: $clr-white;
+      }
 }
 
 .btn-outline-white_lg {
@@ -83,6 +140,13 @@
     color: $clr-white;
     border: 0.15em solid $clr-white;
     padding: 1.3em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-brand;
+        color: $clr-white;
+        border: 0.15em solid $clr-brand;
+      }
 }
 
 .btn-outline-white_md {
@@ -90,6 +154,13 @@
     color: $clr-white;
     border: 0.15em solid $clr-white;
     padding: .3em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-brand;
+        color: $clr-white;
+        border: 0.15em solid $clr-brand;
+      }
 }
 
 .btn-outline-white_sm {
@@ -97,6 +168,13 @@
     color: $clr-white;
     border: 0.15em solid $clr-white;
     padding: .5em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-brand;
+        color: $clr-white;
+        border: 0.15em solid $clr-brand;
+      }
 }
 
 .btn-black_lg {
@@ -105,6 +183,12 @@
     background-color: $clr-black;
     border: 0.15em solid $clr-black;
     padding: 1.3em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-white;
+        color: $clr-black;
+      }
 }
 
 .btn-black_md {
@@ -113,6 +197,12 @@
     background-color: $clr-black;
     border: 0.15em solid $clr-black;
     padding: .8em;
+    transition: box-shadow 0.3s, color 0.3s;
+
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-white;
+        color: $clr-black;
+      }
 }
 
 .btn-black_sm {
@@ -121,25 +211,10 @@
     background-color: $clr-black;
     border: 0.15em solid $clr-black;
     padding: .5em;
-}
+    transition: box-shadow 0.3s, color 0.3s;
 
-.btn-outline-black_lg {
-    @include btn;
-    color: $clr-black;
-    border: 0.15em solid $clr-black;
-    padding: 1.3em;
-}
-
-.btn-outline-black_md {
-    @include btn;
-    color: $clr-black;
-    border: 0.15em solid $clr-black;
-    padding: .8em;
-}
-
-.btn-outline-black_sm {
-    @include btn;
-    color: $clr-black;
-    border: 0.15em solid $clr-black;
-    padding: .5em;
+    &:hover {
+        box-shadow: inset 0px 0px 30px 45px $clr-white;
+        color: $clr-black;
+      }
 }
