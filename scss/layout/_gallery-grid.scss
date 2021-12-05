@@ -54,47 +54,46 @@ $grid-position: ("main-left": 1 #{"/"} 1 #{"/"} 4 #{"/"} 4, "upper": 1 #{"/"} 4 
       text-transform: uppercase;
   }
 
-  .bg,
-  .overlay {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  img,
-  .overlay {
-    transition: .3s all;
-    border-radius: 3px;
-  }
-
-  .bg {
-    position: relative;
-    img {
-      width: 100%;
-      margin-bottom: -4px;
-    }
+    .bg,
     .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.5);
-      color: #fff;
-      opacity: 0;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-    &:hover {
-      .overlay {
-        opacity: 1;
-      }
-      img {
-        object-fit: cover;
-        filter: blur(.3rem);
-      }
-    }
-  }
 
+    img,
+    .overlay {
+      transition: .3s all;
+      border-radius: 3px;
+    }
+
+    .bg {
+      position: relative;
+      img {
+        width: 100%;
+        margin-bottom: -4px;
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        opacity: 0;
+      }
+      &:hover {
+        .overlay {
+          opacity: 1;
+        }
+        img {
+          object-fit: cover;
+          filter: blur(.3rem);
+        }
+      }
+    }
   }
 
 
