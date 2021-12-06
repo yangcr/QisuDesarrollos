@@ -3,10 +3,7 @@
     h1 {
         font-size: 2em;
         text-align: center;
-        padding-top: 1.2em;
-        @media (min-width: 768px) {
-            font-size: 3em;
-        }
+        padding: 2em;
     }
 
     .tours-wrapper {
@@ -16,14 +13,15 @@
         padding: 2em 0;
 
         h2 {
-            font-size: 1.5em;
             text-align: center;
-            padding: 1.2em;
-
-            @media (min-width: 768px) {
-                font-size: 2em;
-            }
-            
+            font-size: 1.7em;
+            margin-bottom: 1.3em;
+            text-transform: uppercase;
+      
+            @media (min-width: 465px) {
+              text-align: center;
+              font-size: 2.4em;
+            }         
         }
 
         span {
