@@ -7,6 +7,7 @@
     <meta name="description" content="Visitá en 360º el interior de nuestras oficinas y unidades, para descubrir cómo podría ser tu próximo hogar.">
     <meta name="keywords" content="Qisu, Qisu Desarrollos, Qisu constructora, Qisu desarrolladora, Qisu desarrollo inmobiliario, Qisu inmobiliaria, Qisu interior, Interiores en 360, tours edificios nuevos, tours virtuales, ver interior departamentos, interior casa en venta, interior departamento en venta">
     <title>Tours virtuales | Qisu Desarrollos</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
 </head>
 
@@ -47,12 +48,12 @@
 
         <div class="tours-wrapper" id="taiwan-office">
             <h2><span>Nuestras oficinas</span> en Taiwan</h2>
-            <div class="virtual-tour__card" id="viewTaiwanTour__1">
+            <div class="virtual-tour__card" id="viewTaiwanTour__1" data-aos="fade-right" data-aos-offset="200" data-aos-duration="900">
                 <div id="taiwanTour__1">
                     <p>ver recorrido virtual</p>
                 </div>
             </div>
-            <div class="virtual-tour__card" id="viewTaiwanTour__2">
+            <div class="virtual-tour__card" id="viewTaiwanTour__2" data-aos="fade-left" data-aos-offset="200" data-aos-duration="900">
                 <div id="taiwanTour__2">
                     <p>ver recorrido virtual</p>
                 </div>
@@ -60,8 +61,8 @@
         </div>
 
         <div class="tours-wrapper" id="luthiers">
-            <h2>Visitá nuestro barrio privado <span>Les Luthiers</span></h2>
-            <div class="virtual-tour__card" id="viewLuthierTour__1">
+            <h2 data-aos="fade-up" data-aos-duration="1000">Visitá nuestro barrio privado <span>Les Luthiers</span></h2>
+            <div class="virtual-tour__card" id="viewLuthierTour__1" data-aos="fade-left" data-aos-offset="200" data-aos-duration="900">
                 <div id="LuthierTour__1">
                     <p>ver recorrido virtual</p>
                 </div>
@@ -120,5 +121,9 @@
     <script src="../js/nav.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
     <script src="../js/onclick.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

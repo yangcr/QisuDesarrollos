@@ -9,6 +9,7 @@
     <meta name="keywords" content="Qisu, Qisu Desarrollos, Qisu constructora, Qisu desarrolladora, Qisu desarrollo inmobiliario, Qisu inmobiliaria, Desarrollo inmobiliario, invertir en pozo, inmobiliaria, casa propia, comprar departamento, comprar casa, invertir en inmueble, bienes raices, real state Argentina,  inmobiliaria Argentina, desarrolladora, constructora, comprar inmueble, departamentos en Buenos Aires, Barrio privado en construccion, Edificio en construccion">
     <title>QISU | Desarrollo inmobiliario</title>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -61,7 +62,7 @@
 
         <section class="we-are pd-3">
             <!--INICIO QUIENES SOMOS-->
-            <div class="we-are__text">
+            <div class="we-are__text" data-aos="fade-left" data-aos-offset="150" data-aos-duration="900">
                 <h2>QUIENES SOMOS</h2>
                 <p class=" we-are__text-sm">En QISU la arquitectura, la ingeniería y el interiorismo son confiados a los mejores profesionales, quienes disponen del rigor para garantizar espacios versátiles y funcionales, así como el talento para que sean conseguidos con una sobria originalidad.</p>
 
@@ -71,7 +72,7 @@
 
             </div>
 
-            <img src="./assets/le-team.jpg" alt="Foto del equipo QISU">
+            <img src="./assets/le-team.jpg" alt="Foto del equipo QISU" data-aos="fade-right" data-aos-offset="150" data-aos-duration="900">
 
         </section>
         <!--FINAL QUIENES SOMOS-->
@@ -82,8 +83,8 @@
             <!--INICIO PREVIEW PORTFOLIO-->
             <h2>ALGUNOS DE NUESTROS PROYECTOS</h2>
 
-            <div class="portfolio__gallery">
-                <div class="portfolio__card shadow-lg">
+            <div class="portfolio__gallery" >
+                <div class="portfolio__card" data-aos="fade-up" data-aos-delay="0" data-aos-offset="200" data-aos-duration="900">
                     <!--PROYECTO 01-->
                     <img src="./assets/finalizados/palercoleta/palercoleta-outside.jpg" alt="foto en blanco y negro del deificio ubicado en Av. Cochabamba 123">
 
@@ -96,7 +97,7 @@
 
                 </div>
 
-                <div class="portfolio__card">
+                <div class="portfolio__card" data-aos="fade-up" data-aos-delay="100" data-aos-offset="200" data-aos-duration="900">
                     <!--PROYECTO 02-->
                     <img src="./assets/finalizados/olivares/olivares-outside.jpg" alt="foto en blanco y negro desde la calle del edificio ubicado en Santa María del Valle 456">
 
@@ -108,7 +109,7 @@
                     </div>
                 </div>
 
-                <div class="portfolio__card">
+                <div class="portfolio__card" data-aos="fade-up" data-aos-delay="200" data-aos-offset="200" data-aos-duration="900">
                     <!--PROYECTO 03-->
                     <img src="./assets/finalizados/ellysium/ellysium-outside.jpg" alt="edificio ubicado en Av. de los rosedales 789">
 
@@ -120,7 +121,7 @@
                     </div>
                 </div>
 
-                <div class="portfolio__card">
+                <div class="portfolio__card" data-aos="fade-up" data-aos-delay="300" data-aos-offset="200" data-aos-duration="900">
                     <!--PROYECTO 04-->
                     <img src="./assets/finalizados/caelum/caelum-outside.jpg" alt="edificio ubicado en Av. Siempreviva 1023">
                     <div class="portfolio__card__text">
@@ -132,7 +133,7 @@
                 </div>
             </div>
 
-            <a href="./pages/finalizados.html" class="btn-main_lg">VER MAS PROYECTOS</a>
+            <a href="./pages/finalizados.html" class="btn-main_lg" data-aos="fade-up" data-aos-duration="900">VER MAS PROYECTOS</a>
 
         </section>
         <!--FINAL PREVIEW PORTFOLIO-->
@@ -142,9 +143,9 @@
         <section class="portfolio-360">
             <!-- INICIO PORFOLIO 360°-->
 
-            <h2>INTERIORES EN 360°</h2>
+            <h2 data-aos="fade-up" data-aos-duration="900">INTERIORES EN 360°</h2>
 
-            <div class="portfolio-360__card" id="viewiFrame1">
+            <div class="portfolio-360__card" id="viewiFrame1" data-aos="fade-right" data-aos-duration="900">
                 <!-- PROYECTO 01 360-->
 
                 <h3>Ashford Manor</h3>
@@ -154,7 +155,7 @@
                 </div>
             </div>
 
-            <div class="portfolio-360__card" id="viewiFrame2">
+            <div class="portfolio-360__card" id="viewiFrame2" data-aos="fade-left" data-aos-duration="900">
                 <!-- PROYECTO 02 360-->
                 <h3>Morrow Center</h3>
 
@@ -164,14 +165,14 @@
             </div>
 
 
-            <a href="/pages/tours.html" class="btn-main_lg"> VER MAS EN 360°</a>
+            <a href="/pages/tours.html" class="btn-main_lg" data-aos="fade-up" data-aos-duration="900"> VER MAS EN 360°</a>
 
 
         </section> <!-- FIN PORTFOLIO 360°-->
 
 
 
-        <section id="contacto" class="contact padding-x3">
+        <section id="contacto" class="contact padding-x3" data-aos="fade-up" data-aos-duration="900">
 
             <h2>Mandanos un mensaje</h2>
             <div class="contact__icons">
@@ -259,12 +260,18 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
     <script src="./js/nav.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
     <script src="./js/onclick.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 
 </body>
